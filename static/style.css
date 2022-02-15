@@ -4,5 +4,37 @@ body {
   font-family: JosefinSans -apple-       system,       
                 BlinkMacSystemFont,          'Segoe UI', Roboto, 
                 Oxygen,          Ubuntu, Cantarell, 'Open Sans',                 'Helvetica Neue', sans-serif;
-  background: #eaeaea;
+  background:  #eaeaea;
+  
+}
+
+.mainLogo {
+    margin-left: 530px;
+    margin-top: 250px;
+    margin-bottom: 120px;
+}
+
+.topMenu {
+    width: 1000px;
+    height: 80px;
+    background-color: #fff;
+    margin-left: 150px;
+    vertical-align: middle;
+    padding-left: 270px;
+    padding-top: 50px;
+}
+
+.topMenu li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.topMenu li:hover {
+    display: inline;
+    margin-left: 25px;
+    margin-right: auto;
+    font-size: 15px;
+    color:brown;
 }
