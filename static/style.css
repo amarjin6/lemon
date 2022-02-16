@@ -1,78 +1,132 @@
 body {
   margin: 10px;
-  padding: 0px;
-  font-family: San-Serif;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
   background:  #eaeaea;
-  
 }
 
 .mainLogo {
-    margin-left: 530px;
-    margin-top: 250px;
+    display: block;
+    margin: 250px auto;
     margin-bottom: 120px;
 }
-
 .topMenuLogo{
     width: 85px;
     height: 35px;
-    float:left;
-    margin: 45px 92px 0px 95px;
+    margin-left: 95px;
+    margin-top: 45px;
+    float: left;
+    padding-right: 58px;
 }
 .topMenu {
     width: 1120px;
     height: 125px;
     background-color: #fff;
-    margin-left: 150px;
-    margin-bottom: 87px;
+    margin-left: 155px;
     vertical-align: middle;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    padding: 0px 0px 0px 0px;
+    padding-left: auto;
+    padding-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 86px;
 }
 
-.topMenu li {
+.topMenu_list{
+    padding-top: 55px;
+}
+
+.topMenu_list li {
     display: inline;
     margin-left: 25px;
     margin-right: auto;
-    font-size: 15px; 
+    font-size: 14px;
 }
 
 .topMenu li:hover {
   display: inline;
   margin-left: 25px;
   margin-right: auto;
-  font-size: 15px;
+  font-size: 14px;
   color: #c2c2c2;
 }
 
-.search {
-  position: relative;
-  width: 200px;
-  height: 35px ;
-  margin-left: 900px;
-  margin-top: 5px;
-  padding: 10px,10px;
+
+#searchbar{
+  margin-right: 95px;
+  padding: 10px;
+  margin-top: 45px;
+  float: right;
+  border-radius: 0px;
   border-style: solid;
   border-color: #c2c2c2;
 }
 
-.heropagePhoto{
-  background: url("img/hero page/Photo.png");
-  position: relative;
-  margin-left: 140px;
-}
-.heropagePhoto:after {
-  position: absolute;
-  content: '';
-  left:0; 
-  top:0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
+#photo, #logo {
+    position: relative;
+
 }
 
-.heropagePhoto_content {
-  position: relative;
-  z-index: 1;
-  padding: 20px;
-  color: #fff;
+#logo {
+    top:-430px;
+    margin-left: 285px;
+    margin-top: 50px;
 }
+
+#photo{
+    width: 1120px;
+    height: 440px;
+    margin-left: 180px;
+}
+
+.heroPageTitle {
+ font-family: 'Playfair Display', serif;
+ font-size: 24px;
+ color: #921026;
+ margin-bottom: -15px;
+}
+
+.heroPageText {
+ font-family: 'Josefin Sans';
+ color: #000000;
+ font-size: 15px;
+ line-height: 1.2;
+ left: 240.138px;
+ top: 953.546px;
+ width: 312px;
+ height: 90px;
+ z-index: 10;
+}
+
+.getItRecipe {
+  border-width: 1px;
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  width: 103px;
+  height: 26px;
+  z-index: 12;
+  margin-top:  32px;
+  font-size: 10px; 
+}
+
+.getItRecipe:hover {
+  color: #c2c2c2;
+}
+
+.elipse {
+  border-radius: 50%;
+   background-color: rgb(85, 85, 85);
+    position: absolute;
+     left: 1216px;
+      top: 1149px;
+       width: 8px;
+        height: 8px;
+         z-index: 18;
+}
+
+#boolshit {
+  horizontal-align: center;
+}
+
+
+
+
