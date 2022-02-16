@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
   background:  #eaeaea;
+  font-size: 15px;
 }
 
 .mainLogo {
@@ -95,32 +96,38 @@ body {
  width: 312px;
  height: 90px;
  z-index: 10;
+  margin-top: 35px;
 }
 
 .getItRecipe {
   border-width: 1px;
   border-color: rgb(194, 194, 194);
   border-style: solid;
-  width: 103px;
-  height: 26px;
+  width: 105px;
+  height: 28px;
   z-index: 12;
-  margin-top:  32px;
-  font-size: 10px; 
+  margin-top:  15px;
+  font-size: 10px;
+  background-color: c2c2c2; 
 }
 
 .getItRecipe:hover {
-  color: #c2c2c2;
+  transform: scale(1.05);
+}
+
+.getItRecipe:active{
+  transform: scale(1.00);
 }
 
 .elipse {
   border-radius: 50%;
-   background-color: rgb(85, 85, 85);
-    position: absolute;
-     left: 1216px;
-      top: 1149px;
-       width: 8px;
-        height: 8px;
-         z-index: 18;
+  background-color: rgb(85, 85, 85);
+  position: absolute;
+  left: 1216px;
+  top: 1149px;
+  width: 8px;
+  height: 8px;
+  z-index: 18;
 }
 
 #boolshit {
