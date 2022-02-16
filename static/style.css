@@ -19,6 +19,7 @@ body {
     float: left;
     padding-right: 58px;
 }
+
 .topMenu {
     width: 1120px;
     height: 125px;
@@ -29,7 +30,7 @@ body {
     padding-top: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 86px;
+    margin-bottom: 85px;
 }
 
 .topMenu_list{
@@ -64,7 +65,6 @@ body {
 
 #photo, #logo {
     position: relative;
-
 }
 
 #logo {
@@ -77,6 +77,7 @@ body {
     width: 1120px;
     height: 440px;
     margin-left: 180px;
+    margin-bottom: 85px;
 }
 
 .heroPageTitle {
@@ -108,7 +109,7 @@ body {
   z-index: 12;
   margin-top:  15px;
   font-size: 10px;
-  background-color: c2c2c2; 
+  background-color:white; 
 }
 
 .getItRecipe:hover {
@@ -119,21 +120,62 @@ body {
   transform: scale(1.00);
 }
 
-.elipse {
-  border-radius: 50%;
-  background-color: rgb(85, 85, 85);
-  position: absolute;
-  left: 1216px;
-  top: 1149px;
-  width: 8px;
-  height: 8px;
-  z-index: 18;
-}
-
 #boolshit {
   horizontal-align: center;
 }
 
+.recipeesBase{
+    width: 1120px;
+    height: 375px;
+  background-color: #fff;
+    margin-left: 180px;
+    margin-bottom: 85px;
+    display: flex; 
+}
+
+.recipees_img{
+    width: 85px;
+    height: 35px;
+    margin-left: 54px;
+    margin-top: 40px;
+    float: left;
+    padding-right: 58px;
+}
+
+.fa fa-clock-o::after{
+  display: block;
+  content: '\f017';
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  font-weight: 900;
+  width: 100px;
+  height: 100px;
+}
+
+.Rectangle1 {
+  margin-left: 180px;
+  margin-bottom: 85px;
+  display: flex;
+}
+
+.Rectangle1Title {
+  color: #055555;
+  margin-left: -530px;
+  font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+  line-height: 1.2;
+}
+
+.Rectangle1Text {
+  font-size: 16px;
+  font-family: "JosefinSans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  width: 495px;
+  height: 265px;
+  margin-top: 150px;
+  margin-left: -455px; 
+}
 
 
 
