@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemon</title>
+  <link rel="stylesheet" href="static/style.css">    
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Maven+Pro&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/iconicon/veggies/256/lemon-icon.png">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+    
+<body>
+  <img src="img/Logo.png" alt="Logo" class="mainLogo">
+
+  <div class= "topMenu">
+    <img class = "topMenuLogo" src="img/Logo.png" alt="Logo">  
+    <input id="searchbar" type="text" name="search" placeholder=" FIND A RECIPE" > 
+    <ul class="topMenu_list">      
+      <li>HOME</li>
+      <li>RECIPES</li>
+      <li>PHOTOGALLERIES</li>
+      <li>VIDEOS</li>
+      <li>ALL CATEGORIES</li> 
+    </ul>
+  </div> 
+  
+  <div id = "heroPage">
+    <div id = "photo_heropage">
+        <img src = "img/hero page/Photo.png">
+    </div>
+    
+    <button class="getItRecipe">GET IT RECIPE</button>   
+    
+    <div id = "logo_heropage">
+      <img src = "img/Logo.png" width = 250px height= 105px >        
+    </div>
+    
+     <p class="heroPageTitle"><b>Bananas Foster Ice Cream Cake</b></p>
+     <p class="heroPageText"><b>If you're looking for decadence, look no further - you've found           the Holly Grail of deserts. Honestly, this cake makes us wonder why Bananas Foster       hasn't         always been served on top of ice cream cake.</b></p> 
+   
+  </div>  
+  
+<!--recipees-->
+<div class="recipeesContain">
+  <table class="recipees_table">
+  <tr class="recipees_pics">
+    <td class="recipees_1pic"><img  src="img/recipees/Photo.png"></td>
+    <td><img class="recipees_2pic" src="img/recipees/Photo.png"></td>
+    <td><img class="recipees_3pic" src="img/recipees/Photo.png"></td>
+  </tr>
+
+  <tr class="recipees_text">
+    <td class="recipees_1pic">Raspberry & Cream Frozen Yogurt Pie</td>
+    <td class="recipees_2pic">Giant Ice-Cream Sandwich</td>
+    <td class="recipees_3pic">Dark Chocolate Crunch Ice-Cream Sandwich Cake</td>
+  </tr>
+
+  <tr>
+    <td>hello</td>
+  </tr>
+  </table> 
+<img class="Base" src="img/recipees/Base.png" alt="Base">
+</div>
+<!--recipees-->
+  
+  <div class="Rectangle1">
+    <div class="photo">
+     <img src="img/recipe/Rectangle 1 copy.png" alt="Rectangle 1 copy">
+    </div>
+    <div class="Rectangle1Title">
+      <p>Bananas Foster Ice Cream Cake</p>
+    </div>
+    <div class="Rectangle1Text">
+      <p>1 (8 ounce) container frozen whipped topping, thawed
+        20 chocolate round wafers, divided
+        1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Topping, divided<br><b>Directions</b><br>
+        ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even layer. Spread with half of whipped topping. Break or crush chocolate wafers and sprinkle over the whipped cream. Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30 seconds. Drizzle evenly over wafers.
+        TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with remaining whipped topping. Freeze 3 hours or overnight.  
+      </p>
+    </div>
+  </div>
+    
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ <script src="https://kit.fontawesome.com/f2f86476cf.js" crossorigin="anonymous"></script>
+</body>
+</html> 
