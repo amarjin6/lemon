@@ -1598,6 +1598,11 @@ body {
     font-weight: 400;
 }
 
+.sec6_block01_button1[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+}
+
 .sec6_block01_pic1 {
     margin: 22px 22px 0px 135px;
 }
