@@ -84,7 +84,6 @@ function nextSlide() {
 }
 
 //recipe section
-
 $dialog = document.querySelector('dialog');
 
 function saveRecipe() {
@@ -94,5 +93,34 @@ function saveRecipe() {
    let saveBtn = document.getElementById('saveRecipeBtn');
    saveBtn.disabled = true;
    saveBtn.innerHTML = '&#10004; Saved!';
+}
 
+//post section
+$savePost = document.getElementById('savePostBtn');
+$savePost.disabled = true;
+$postAComment = document.getElementById('postAComment');
+$postAComment.addEventListener('click', function() {
+    if (document.getElementById('postInput').value !== '') {
+        $savePost.disabled = false;
+    }
+});
+
+function savePost() {
+    let today = new Date();
+    let date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+    let postInput = document.getElementById('postInput');
+    let postTitle = postInput.value;
+    console.log(postTitle);
+    postInput.value = '';
+    document.getElementById('commentsSection').innerHTML +=
+
+        '<div class="sec7_ness2" style="margin: 50px 0 0 0">' +
+            '<img src="img/pic34.png" alt="face" class="sec7_pic1">' +
+            '<p class="sec7_text2">post by</p>' +
+            '<p class="sec7_text31">ANONYMOUS USER<span class="reply"> reply</span></p>' +
+            '<p class="sec7_text41">'+date+'</p>' +
+            '<img src="img/pic35.jpg" alt="data" class="sec7_pic2">' +
+        '</div>' +
+        '<p class="sec7_text7">'+postTitle+'</p>' +
+        '<div class="sec7_line3"></div>';
 }
