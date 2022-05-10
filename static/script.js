@@ -88,7 +88,6 @@ $dialog = document.querySelector('dialog');
 
 function saveRecipe() {
    $dialog.showModal();
-   //sleep for 5 seconds
    setTimeout('$dialog.close()', 5000);
    let saveBtn = document.getElementById('saveRecipeBtn');
    saveBtn.disabled = true;
@@ -109,7 +108,10 @@ function savePost() {
     let today = new Date();
     let date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
     let postInput = document.getElementById('postInput');
-    let postTitle = postInput.value;
+    let postTitle = postInput.value.trim();
+    if (postTitle === '') {
+        return;
+    }
     console.log(postTitle);
     postInput.value = '';
     document.getElementById('commentsSection').innerHTML +=
