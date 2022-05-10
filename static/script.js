@@ -82,3 +82,17 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }
+
+//recipe section
+
+$dialog = document.querySelector('dialog');
+
+function saveRecipe() {
+   $dialog.showModal();
+   //sleep for 5 seconds
+   setTimeout('$dialog.close()', 5000);
+   let saveBtn = document.getElementById('saveRecipeBtn');
+   saveBtn.disabled = true;
+   saveBtn.innerHTML = '&#10004; Saved!';
+
+}
